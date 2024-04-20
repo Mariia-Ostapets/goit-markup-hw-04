@@ -86,8 +86,7 @@ img {
 .menu-nav-link:focus {
   color: #404bbf;
 }
-.menu-nav-link:hover::after,
-.menu-nav-link:focus::after {
+.menu-nav-link::after {
   content: '';
   position: absolute;
   border-radius: 2px;
@@ -131,8 +130,6 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-.page-hero-container {
   max-width: 1440px;
 }
 .page-hero-title {
