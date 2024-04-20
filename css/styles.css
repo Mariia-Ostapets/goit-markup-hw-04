@@ -130,8 +130,10 @@ img {
     url(../images/hero/hero-background-image.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+}
+.page-hero-container {
   max-width: 1440px;
-  background-position: center center;
 }
 .page-hero-title {
   font-size: 56px;
